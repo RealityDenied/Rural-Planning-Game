@@ -1,0 +1,5 @@
+C:/Users/Vikash/Rural Planning Game/.utmp/RelWithDebInfo/5q45b1b5/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Vikash/Rural Planning Game/.utmp/RelWithDebInfo/5q45b1b5/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/Vikash/Rural Planning Game/.utmp/RelWithDebInfo/5q45b1b5/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/Vikash/Rural Planning Game/.utmp/RelWithDebInfo/5q45b1b5/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/Vikash/Rural Planning Game/.utmp/RelWithDebInfo/5q45b1b5/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

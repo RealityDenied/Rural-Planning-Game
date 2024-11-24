@@ -1,0 +1,1 @@
+C:\Users\Vikash\Rural Planning Game\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\5q45b1b5\obj\arm64-v8a
