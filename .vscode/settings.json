@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Rural-Planning-Game.sln"
+    "dotnet.defaultSolution": "Rural Planning Game.sln"
 }

@@ -1,10 +1,19 @@
 # ninja log v5
 38	1991	7541366017131442	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	9617393b30517431
+45	2144	7541366018845768	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	2191026e9a2267ff
 16	2015	7541366017551006	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a7ff3fd41a2b10ca
+21	2211	7541366019528828	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3975f56c246f8cf9
 31	2061	7541366017967564	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6d3b9341eb352a8c
 1	2135	7541366018699348	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2b6d29bff1c3c7c3
-45	2144	7541366018845768	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	2191026e9a2267ff
-21	2211	7541366019528828	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3975f56c246f8cf9
 26	2448	7541366021818529	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4c76608e9b932b59
-10	2636	7541366023783665	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	308f61ded96bf2ca
 2636	2812	7541366025397475	C:/Users/Vikash/Rural Planning Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5q45b1b5/obj/arm64-v8a/libgame.so	8fc2f87a235766aa
+10	2636	7541366023783665	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	308f61ded96bf2ca
+37	1390	7554439483174079	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	9617393b30517431
+14	1408	7554439483545151	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a7ff3fd41a2b10ca
+32	1434	7554439483805389	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6d3b9341eb352a8c
+18	1503	7554439484550674	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2b6d29bff1c3c7c3
+42	1522	7554439484692415	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	2191026e9a2267ff
+22	1588	7554439485403762	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3975f56c246f8cf9
+27	1783	7554439487343178	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4c76608e9b932b59
+9	1878	7554439488290991	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	308f61ded96bf2ca
+1879	2064	7554439490183340	C:/Users/Vikash/Rural Planning Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5q45b1b5/obj/arm64-v8a/libgame.so	8fc2f87a235766aa
