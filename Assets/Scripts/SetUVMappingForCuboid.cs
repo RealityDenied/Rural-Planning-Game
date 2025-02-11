@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class SetUVMappingForCuboid : MonoBehaviour
 {
-    [Tooltip("The material to be applied to the cuboid. Each face will display this texture fully.")]
+    [Tooltip("The material to be applied to the cuboid. ")]
     public Material material;
 
     void Start()
@@ -66,6 +66,7 @@ public class SetUVMappingForCuboid : MonoBehaviour
         uvs[23] = new Vector2(0, 0);
 
         // Assign the UVs to the mesh
+        //uv mapping done in the mesh
         mesh.uv = uvs;
         Debug.Log("Debugging Vertex Positions and UV Coordinates:");
         for (int i = 0; i < mesh.vertices.Length; i++)

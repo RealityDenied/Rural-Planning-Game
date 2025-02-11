@@ -24,7 +24,7 @@ public class TerrainKnifeTool : MonoBehaviour
         mouse = Mouse.current;
         if (mouse == null)
         {
-            Debug.LogError("Mouse input not detected. Ensure that the Input System is configured correctly.");
+            Debug.LogError("Mouse input not detected.");
         }
     }
 
