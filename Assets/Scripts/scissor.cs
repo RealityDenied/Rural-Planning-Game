@@ -6,7 +6,7 @@ public class scissor : MonoBehaviour
 {
     [Header("Settings")]
     public Material greenMaterial; // Material for the closed-loop area
-    public float snapThreshold = 0.2f; // Distance to snap to the starting point
+    public float snapThreshold = 0.3f; // Distance to snap to the starting point
     public float lineWidth = 0.05f; // Width of the drawn cutting line
 
     private Plane cuttingPlane; // Plane for drawing and cutting
