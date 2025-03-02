@@ -58,6 +58,19 @@ This is a winning project - a **real-time GIS-based rural planning game**, devel
 - **Localized Multi-Language Support:** To make the game accessible to rural communities.
 - **Expanded Infrastructure Elements:** Includes **renewable energy projects, smart irrigation, and advanced analytics**.
 
+##  Societal Impact
+![Image](https://github.com/user-attachments/assets/4268dc49-5459-4b33-9b5d-3039a5ea50f7)
+
+## Scalability 
+![Image](https://github.com/user-attachments/assets/ecd961e6-ba88-44f0-a243-f04153f0d8f2)
+
+## Marketability 
+![Image](https://github.com/user-attachments/assets/2922f66d-7b63-4c8a-821a-d119815a5479)
+
+## Features in Progress
+![Image](https://github.com/user-attachments/assets/a6b9bc4e-273e-495a-8afa-80671ca05448)
+
+
 ## 📌 Installation & Setup
 1. **Clone the repository:**
    ```bash
