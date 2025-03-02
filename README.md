@@ -11,7 +11,7 @@ This is a winning project - a **real-time GIS-based rural planning game**, devel
 
 ## Features
 ### 🌍 **Rural Infrastructure Planning**
-
+![Image](https://github.com/user-attachments/assets/a377d244-4d20-4acc-8755-f56d049a9e68)
 - **Road Construction:** Players can create roads using snap points for measurable and optimal placement.
 - **Building Placement:** Houses, schools, hospitals, and windmills can be strategically positioned.
 - **Admin Panel:** Allows government officials to visualize rural development metrics like literacy and healthcare scores.
