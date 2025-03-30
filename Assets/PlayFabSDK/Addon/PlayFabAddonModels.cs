@@ -609,43 +609,29 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class GetTwitchRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+   
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+   
         public EntityKey Entity;
     }
 
     [Serializable]
     public class GetTwitchResponse : PlayFabResultCommon
     {
-        /// <summary>
-        /// Client ID obtained after creating your Twitch developer account.
-        /// </summary>
+     
         public string ClientID;
-        /// <summary>
-        /// Addon status.
-        /// </summary>
+  
         public bool Created;
     }
 
     [Serializable]
     public class NintendoEnvironment : PlayFabBaseModel
     {
-        /// <summary>
-        /// Client ID for the Nintendo Environment.
-        /// </summary>
+       
         public string ClientID;
-        /// <summary>
-        /// Client Secret for the Nintendo Environment.
-        /// </summary>
+      
         public string ClientSecret;
-        /// <summary>
-        /// ID for the Nintendo Environment.
-        /// </summary>
+     
         public string ID;
     }
 }
