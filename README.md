@@ -48,7 +48,7 @@ This is a winning project - a **real-time GIS-based rural planning game**, devel
 
 ## 💡 Challenges Tackled
 ![Image](https://github.com/user-attachments/assets/227bf255-935f-452f-b9f4-330859d81d6c)
-- **Real-Time Map to 3D Conversion:** Solved using OSMnx, cloud storage, and Three.js.
+- **Real-Time Map to 3D Conversion:** Solved using OSMnx, Three.js and cloud storage.
 - **GIS Fencing Implementation:** Used Python GIS libraries to **extract precise village boundaries**.
 - **Rural Development Scoring System:** Designed to **help policymakers optimize village planning**.
 
