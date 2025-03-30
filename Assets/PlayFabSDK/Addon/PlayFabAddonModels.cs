@@ -218,13 +218,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeleteAppleRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+      
         public EntityKey Entity;
     }
 
@@ -236,13 +232,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeleteFacebookInstantGamesRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
     }
 
@@ -254,13 +246,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeleteFacebookRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+     
         public EntityKey Entity;
     }
 
@@ -272,13 +260,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeleteGoogleRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
     }
 
@@ -290,13 +274,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeleteKongregateRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+      
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
     }
 
@@ -308,13 +288,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeleteNintendoRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+      
         public EntityKey Entity;
     }
 
@@ -326,13 +302,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeletePSNRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
     }
 
@@ -344,13 +316,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeleteSteamRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
     }
 
