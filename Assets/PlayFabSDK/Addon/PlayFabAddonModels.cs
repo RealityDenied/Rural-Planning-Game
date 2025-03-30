@@ -8,34 +8,19 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdateAppleRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// iOS App Bundle ID obtained after setting up your app in the App Store.
-        /// </summary>
+        
         public string AppBundleId;
-        /// <summary>
-        /// iOS App Shared Secret obtained after setting up your app in the App Store.
-        /// </summary>
+    
         public string AppSharedSecret;
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+    
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+      
         public EntityKey Entity;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+      
         public bool? ErrorIfExists;
-        /// <summary>
-        /// Ignore expiration date for identity tokens. Be aware that when set to true this can invalidate expired tokens in the
-        /// case where Apple rotates their signing keys.
-        /// </summary>
+     
         public bool? IgnoreExpirationDate;
-        /// <summary>
-        /// Require secure authentication only for this app.
-        /// </summary>
+        
         public bool? RequireSecureAuthentication;
     }
 
@@ -47,25 +32,15 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdateFacebookInstantGamesRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// Facebook App ID obtained after setting up your app in Facebook Instant Games.
-        /// </summary>
+      
         public string AppID;
-        /// <summary>
-        /// Facebook App Secret obtained after setting up your app in Facebook Instant Games.
-        /// </summary>
+       
         public string AppSecret;
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+        
         public bool? ErrorIfExists;
     }
 
