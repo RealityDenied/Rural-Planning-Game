@@ -52,29 +52,17 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdateFacebookRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// Facebook App ID obtained after setting up your app in Facebook.
-        /// </summary>
+       
         public string AppID;
-        /// <summary>
-        /// Facebook App Secret obtained after setting up your app in Facebook.
-        /// </summary>
+       
         public string AppSecret;
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+       
         public bool? ErrorIfExists;
-        /// <summary>
-        /// Email address for purchase dispute notifications.
-        /// </summary>
+       
         public string NotificationEmail;
     }
 
@@ -86,10 +74,7 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdateGoogleRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// Google App License Key obtained after setting up your app in the Google Play developer portal. Required if using Google
-        /// receipt validation.
-        /// </summary>
+       
         public string AppLicenseKey;
         /// <summary>
         /// Google App Package ID obtained after setting up your app in the Google Play developer portal. Required if using Google
