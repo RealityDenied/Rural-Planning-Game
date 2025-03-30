@@ -16,13 +16,13 @@ public class DigitalClock : MonoBehaviour
     {
         while (true)
         {
-            // Get the current system time
+            
             DateTime currentTime = DateTime.Now;
 
-            // Format the time as HH:mm:ss
+            
             clockText.text = currentTime.ToString("HH:mm:ss");
 
-            // Wait for 1 second
+           
             yield return new WaitForSeconds(1);
         }
     }
