@@ -188,25 +188,15 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdateTwitchRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// Client ID obtained after creating your Twitch developer account.
-        /// </summary>
+       
         public string ClientID;
-        /// <summary>
-        /// Client Secret obtained after creating your Twitch developer account.
-        /// </summary>
+      
         public string ClientSecret;
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+     
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+     
         public EntityKey Entity;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+      
         public bool? ErrorIfExists;
     }
 
@@ -330,13 +320,9 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class DeleteTwitchRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+     
         public EntityKey Entity;
     }
 
@@ -588,21 +574,13 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class GetSteamResponse : PlayFabResultCommon
     {
-        /// <summary>
-        /// Application ID obtained after setting up your game in Valve's developer portal.
-        /// </summary>
+ 
         public string ApplicationId;
-        /// <summary>
-        /// Addon status.
-        /// </summary>
+  
         public bool Created;
-        /// <summary>
-        /// Enforce usage of AzurePlayFab identity in user authentication tickets.
-        /// </summary>
+
         public bool? EnforceServiceSpecificTickets;
-        /// <summary>
-        /// Use Steam Payments sandbox endpoint for test transactions.
-        /// </summary>
+
         public bool? UseSandbox;
     }
 
