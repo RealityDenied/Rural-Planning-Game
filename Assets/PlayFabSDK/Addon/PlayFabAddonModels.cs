@@ -140,35 +140,19 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdatePSNRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// Client ID obtained after setting up your game with Sony. This one is associated with the existing PS4 marketplace.
-        /// </summary>
+     
         public string ClientID;
-        /// <summary>
-        /// Client secret obtained after setting up your game with Sony. This one is associated with the existing PS4 marketplace.
-        /// </summary>
+       
         public string ClientSecret;
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+     
         public EntityKey Entity;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+       
         public bool? ErrorIfExists;
-        /// <summary>
-        /// Client ID obtained after setting up your game with Sony. This one is associated with the modern marketplace, which
-        /// includes PS5, cross-generation for PS4, and unified entitlements.
-        /// </summary>
+     
         public string NextGenClientID;
-        /// <summary>
-        /// Client secret obtained after setting up your game with Sony. This one is associated with the modern marketplace, which
-        /// includes PS5, cross-generation for PS4, and unified entitlements.
-        /// </summary>
+      
         public string NextGenClientSecret;
     }
 
@@ -180,33 +164,19 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdateSteamRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// Application ID obtained after setting up your app in Valve's developer portal.
-        /// </summary>
+      
         public string ApplicationId;
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+     
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// Enforce usage of AzurePlayFab identity in user authentication tickets.
-        /// </summary>
+      
         public bool? EnforceServiceSpecificTickets;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+      
         public bool? ErrorIfExists;
-        /// <summary>
-        /// Sercet Key obtained after setting up your app in Valve's developer portal.
-        /// </summary>
+      
         public string SecretKey;
-        /// <summary>
-        /// Use Steam Payments sandbox endpoint for test transactions.
-        /// </summary>
+        
         public bool? UseSandbox;
     }
 
