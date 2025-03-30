@@ -76,42 +76,21 @@ namespace PlayFab.AddonModels
     {
        
         public string AppLicenseKey;
-        /// <summary>
-        /// Google App Package ID obtained after setting up your app in the Google Play developer portal. Required if using Google
-        /// receipt validation.
-        /// </summary>
+      
         public string AppPackageID;
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+      
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+       
         public EntityKey Entity;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+       
         public bool? ErrorIfExists;
-        /// <summary>
-        /// Google OAuth Client ID obtained through the Google Developer Console by creating a new set of "OAuth Client ID".
-        /// Required if using Google Authentication.
-        /// </summary>
+      
         public string OAuthClientID;
-        /// <summary>
-        /// Google OAuth Client Secret obtained through the Google Developer Console by creating a new set of "OAuth Client ID".
-        /// Required if using Google Authentication.
-        /// </summary>
+      
         public string OAuthClientSecret;
-        /// <summary>
-        /// Authorized Redirect Uri obtained through the Google Developer Console. This currently defaults to
-        /// https://oauth.playfab.com/oauth2/google. If you are authenticating players via browser, please update this to your own
-        /// domain.
-        /// </summary>
+       
         public string OAuthCustomRedirectUri;
-        /// <summary>
-        /// Needed to enable pending purchase handling and subscription processing.
-        /// </summary>
+       
         public string ServiceAccountKey;
     }
 
