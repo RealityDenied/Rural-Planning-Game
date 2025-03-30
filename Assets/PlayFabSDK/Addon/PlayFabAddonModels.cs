@@ -102,21 +102,13 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdateKongregateRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+       
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+      
         public EntityKey Entity;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+       
         public bool? ErrorIfExists;
-        /// <summary>
-        /// Kongregate Secret API Key obtained after setting up your game in your Kongregate developer account.
-        /// </summary>
+       
         public string SecretAPIKey;
     }
 
@@ -128,25 +120,15 @@ namespace PlayFab.AddonModels
     [Serializable]
     public class CreateOrUpdateNintendoRequest : PlayFabRequestCommon
     {
-        /// <summary>
-        /// Nintendo Switch Application ID, without the "0x" prefix.
-        /// </summary>
+       
         public string ApplicationID;
-        /// <summary>
-        /// The optional custom tags associated with the request (e.g. build number, external trace identifiers, etc.).
-        /// </summary>
+      
         public Dictionary<string,string> CustomTags;
-        /// <summary>
-        /// The optional entity to perform this action on. Defaults to the currently logged in entity.
-        /// </summary>
+      
         public EntityKey Entity;
-        /// <summary>
-        /// List of Nintendo Environments, currently supporting up to 4. Needs Catalog enabled.
-        /// </summary>
+       
         public List<NintendoEnvironment> Environments;
-        /// <summary>
-        /// If an error should be returned if the addon already exists.
-        /// </summary>
+      
         public bool? ErrorIfExists;
     }
 
